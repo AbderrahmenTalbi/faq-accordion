@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# FAQ Accordion
 
-## Getting Started
+This is a solution to the [FAQ Accordion challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/faq-accordion-wyfFdeBwBz). Frontend Mentor challenges help you improve your frontend skills by building realistic projects.
 
-First, run the development server:
+## 🔗 Live Website
+
+👉 [View Live Site](https://faq-accordion-eta-flax.vercel.app/)
+
+## 🖼️ Preview
+
+![Project Preview](./public/preview.jpg)
+
+## 🛠️ Built With
+
+- [Next.js](https://nextjs.org/) – React Framework
+- [Tailwind CSS](https://tailwindcss.com/) – Utility-first CSS framework
+- [TypeScript](https://www.typescriptlang.org/) – Typed JavaScript
+- Responsive Design Principles
+
+## ⚙️ Features
+
+- Accessible and semantic accordion
+- Smooth toggle animation
+- Mobile-first responsive layout
+- Clean component-based architecture
+- Fully typed with TypeScript
+
+## 🚀 Getting Started
+
+To run the project locally, follow these steps:
 
 ```bash
+git clone https://github.com/AbderrahmenTalbi/faq-accordion.git
+cd faq-accordion
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open your browser and go to:  
+👉 `http://localhost:3000`
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📁 Folder Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+faq-accordion/
+├── public/
+│   └── preview.jpg
+├── app/ or pages/           # (Depending on routing setup)
+├── components/              # Reusable components
+├── styles/                  # Global styles (if any)
+├── tsconfig.json
+├── tailwind.config.js
+├── next.config.js
+└── ...
+```
 
-## Learn More
+## 📚 What I Learned
 
-To learn more about Next.js, take a look at the following resources:
+- Building components using React and TypeScript
+- Managing state in an accordion UI
+- Styling effectively with Tailwind CSS
+- Building fully responsive UIs with accessibility in mind
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📸 Screenshot
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+![Mobile Screenshot](./public/preview.jpg)
 
-## Deploy on Vercel
+## 👨‍💻 Author
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- GitHub: [@AbderrahmenTalbi](https://github.com/AbderrahmenTalbi)
+- Frontend Mentor: [@AbderrahmenTalbi](https://www.frontendmentor.io/profile/AbderrahmenTalbi)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+⭐️ Feel free to star this repo to support my work!
